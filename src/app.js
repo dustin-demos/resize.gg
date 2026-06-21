@@ -21,7 +21,8 @@ app({
     }
   },
   pages: {
-    '/': Home,
+    // Served under /resize/ in the demos container, so the home route is that path.
+    '/resize/': Home,
     '/missing': Missing
   }
 })
