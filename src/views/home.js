@@ -94,7 +94,7 @@ const PlaceholderComponent = (state, dispatch) => data => {
   const width = Math.round(state.resize.width)
   const height = Math.round(state.resize.height)
 
-  const url = `https://via.placeholder.com/${width}x${height}`
+  const url = `https://placehold.co/${width}x${height}`
   const children = [
     text(state.clipboard.copied === true ? 'Copied!' : 'Copy')
   ]
